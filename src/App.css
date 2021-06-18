@@ -26,12 +26,12 @@ body {
   width: 100%;
   border-radius: 20px;
   padding: 5px;
-  border: 1px solid;
+  border: 2px solid;
 }
 .Dictionary section {
   background-image: url(./images/background_4.png);
-  padding: 20px;
-  border-radius: 25px;
+  padding: 15px;
+  border-radius: 30px;
   box-shadow: 0 3px 12px;
   margin: 30px 0;
 }
@@ -39,8 +39,12 @@ body {
   margin-top: 100px;
 }
 
-img {
+.default-image {
   width: 100%;
+  border: 1px solid;
+  box-shadow: 0 3px 12px;
+  border-radius: 20px;
+  margin: 30px 0;
 }
 
 .Results h2 {
@@ -68,11 +72,22 @@ img {
 .Synonyms {
   padding: 0;
 }
+
 .Synonyms li {
   font-size: 15px;
   display: inline-block;
   padding-right: 10px;
 }
+.col-4 {
+  text-align: center;
+  padding: 8px;
+}
+
+img {
+  border-radius: 8px;
+  margin: 10px 20px;
+}
+
 footer {
   text-align: center;
 }

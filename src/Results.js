@@ -29,7 +29,7 @@ export default function Results(props) {
      );
     } else {
     return (
-       <img  src={img} alt="default-pic"/>
+       <img  src={img} className="default-image" alt="default-pic"/>
     );
 }
 }
