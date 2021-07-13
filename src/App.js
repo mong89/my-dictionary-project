@@ -9,12 +9,19 @@ export default function App() {
       <header className="App-header">
      MyDictionary App
       </header>
+      <hr></hr>
       <h1>What are you looking for?</h1>
       <main>
         <Dictionary />
       </main>
       <footer>
-        Coded by Monika
+        Coded by 
+        <a
+            href="https://github.com/mong89"
+            target="_blank"
+            title="Monika's GitHub profile"
+            class="github-link text-decoration-none"
+            > Monika</a>
       </footer>
     </div>
     </div>

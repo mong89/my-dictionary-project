@@ -2,6 +2,7 @@ body {
   background-image: url(./images/background_3.png);
   background-size: 100%;
   background-position: top;
+  font-family: "Averia Serif Libre";
 }
 
 .App-header {
@@ -12,10 +13,20 @@ body {
   margin: 10px 0;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.App hr {
+  color: #8e286b;
+}
+
 .App h1 {
   text-align: center;
   font-size: 33px;
   margin-top: 70px;
+  color: #8e286b;
 }
 .Dictionary {
   background: none;
@@ -27,21 +38,20 @@ body {
   border-radius: 20px;
   padding: 5px;
   border: 2px solid;
+  border-color: #c9b793;
 }
-.Dictionary section {
+
+.Results section {
+  margin-top: 100px;
   background-image: url(./images/background_4.png);
   padding: 15px;
   border-radius: 30px;
   box-shadow: 0 3px 12px;
   margin: 30px 0;
 }
-.Results {
-  margin-top: 100px;
-}
 
 .default-image {
   width: 100%;
-  border: 1px solid;
   box-shadow: 0 3px 12px;
   border-radius: 20px;
   margin: 30px 0;
@@ -66,7 +76,7 @@ body {
 
 .Meaning .example {
   font-style: italic;
-  color: #e06a50;
+  color: #a62671;
 }
 
 .Synonyms {
@@ -78,16 +88,30 @@ body {
   display: inline-block;
   padding-right: 10px;
 }
+
 .col-4 {
   text-align: center;
   padding: 8px;
 }
 
+.Photos {
+  margin-top: 100px;
+  background-image: url(./images/background_4.png);
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 0 3px 12px;
+  margin: 30px 0;
+}
+
 img {
   border-radius: 8px;
-  margin: 10px 20px;
+  margin: auto;
 }
 
 footer {
   text-align: center;
+}
+
+footer a {
+  color: #8e286b;
 }
