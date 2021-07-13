@@ -19,6 +19,7 @@ export default function App() {
         <a
             href="https://github.com/mong89"
             target="_blank"
+            rel="noreferrer"
             title="Monika's GitHub profile"
             class="github-link text-decoration-none"
             > Monika</a>
